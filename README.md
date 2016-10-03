@@ -10,15 +10,15 @@ When creating a new vanilla JavaScript/HTML/CSS/NodeJS project, try
 cloning this repository as a start template for your project.
 
 You will get:
-1. HTML files are preprocessed and moved to the build directory.
-2. SCSS files are preprocessed and joined to a single file in the build 
+ 1. HTML files are preprocessed and moved to the build directory.
+ 2. SCSS files are preprocessed and joined to a single file in the build 
 directory. Entry point is `src/client/scss/index.scss` file.
-3. JavaScript (ES6) is preprocessed and joined into a single file in the
+ 3. JavaScript (ES6) is preprocessed and joined into a single file in the
 build directory, including sourcemaps. Entry point is 
 `src/client/js/index.js` file.
-4. All server JavaScript ES6 code is processed to ES5 and moved to the
+ 4. All server JavaScript ES6 code is processed to ES5 and moved to the
 build directory.
-5. All other files are just moved to the build directory by default.
+ 5. All other files are just moved to the build directory by default.
 
 Feel free to improve and extend this template!
 
