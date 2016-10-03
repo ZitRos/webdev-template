@@ -34,4 +34,5 @@ git clone https://github.com/ZitRos/webdev-template
 cd webdev-template    # enter directory just created
 npm install           # install all the dependencies
 run                   # build & run the project
+./run.sh              # *nix shell script to build & run
 ```
