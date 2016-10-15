@@ -26,7 +26,7 @@ gulp.task("server", ["clean"], () => {
 });
 
 gulp.task("client-html", ["clean"], () => {
-    return gulp.src(`${BUILD_DIR}/client/**/*.html`)
+    return gulp.src(`${ SRC_DIR }/client/**/*.html`)
         .pipe(preprocess({ context }))
         .pipe(gulp.dest(`${ BUILD_DIR }/client`));
 });
@@ -51,7 +51,8 @@ gulp.task("client-etc", ["clean"], () => {
     return gulp.src([
         `${ SRC_DIR }/client/**/*.*`,
         `!${ SRC_DIR }/client/js/**/*.*`,
-        `!${ SRC_DIR }/client/scss/**/*.*`
+        `!${ SRC_DIR }/client/scss/**/*.*`,
+        `!${ SRC_DIR }/client/index.html`
     ])
         .pipe(gulp.dest(`${ BUILD_DIR }/client`));
 });
